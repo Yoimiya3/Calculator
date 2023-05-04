@@ -1,0 +1,38 @@
+function add() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 + num2;
+    document.getElementById("result").value = result;
+  }
+  
+  function subtract() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 - num2;
+    document.getElementById("result").value = result;
+  }
+  
+  function multiply() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 * num2;
+    document.getElementById("result").value = result;
+  }
+  
+  function divide() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = num1 / num2;
+    document.getElementById("result").value = result;
+  }
+  
+  function clearFields() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").value = "";
+  }
+  
+  function about() {
+    alert("Work of Argel D. Bugarin");
+  }
+  
